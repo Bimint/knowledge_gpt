@@ -82,22 +82,5 @@ Open http://localhost:8501 in your browser to access the app.
 - Visual PDF viewer
 - Support for Local LLMs
 
-## Contributing
 
-All contributions are welcome!
 
-## Contributors
-
-Big thanks to the following people for their contributions!
-
-<a href="https://github.com/mmz-001/knowledge_gpt/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=mmz-001/knowledge_gpt" />
-</a>
-
-## License
-
-Distributed under the MIT License. See [LICENSE](https://github.com/mmz-001/knowledge_gpt/blob/main/LICENSE) for more information.
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=mmz-001/knowledge_gpt&type=Date)](https://star-history.com/#mmz-001/knowledge_gpt&Date)
