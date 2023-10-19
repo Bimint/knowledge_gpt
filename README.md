@@ -4,7 +4,7 @@
 
 <div id="top" align="center">
 
-![GitHub](https://github.com/Bimint/knowledge_gpt)
+
 
 
 </div>
@@ -26,8 +26,7 @@
 1. Clone the repository - โคลนพื้นที่เก็บข้อมูล
 
 ```bash
-git clone https://github.com/mmz-001/knowledge_gpt
-cd knowledge_gpt
+git clone https://github.com/Bimint/knowledge_gpt.git
 ```
 
 2. Install dependencies with [Poetry](https://python-poetry.org/) and activate virtual environment
@@ -37,11 +36,11 @@ poetry install
 poetry shell
 ```
 
-3. (Optional) Avoid adding the OpenAI API every time you run the server by adding it to environment variables.
+3. (Optional) หลีกเลี่ยงการเพิ่ม OpenAI API ทุกครั้งที่คุณเรียกใช้เซิร์ฟเวอร์โดยการเพิ่มลงในตัวแปรสภาพแวดล้อม (ไม่บังคับเเล้วเเต่ความสะดวกผู้ใช้งาน).
    - Make a copy of `.env.example` named `.env`
    - Add your API key to the `.env` file
 
-> **Note:** Make sure you have a paid OpenAI API key for faster completions and to avoid hitting rate limits.
+> **Note:** ตรวจสอบให้แน่ใจว่าคุณมีคีย์ OpenAI API แบบชำระเงินเพื่อให้ทำงานเสร็จเร็วขึ้น และเพื่อหลีกเลี่ยงไม่ให้ถึงขีดจำกัดของอัตรา(ไม่บังคับจะใช้ฟรีก็ได้ค่ะ)
 
 4. Run the Streamlit server
 
