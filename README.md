@@ -70,12 +70,12 @@ Open http://localhost:8501 in your browser to access the app.
 
 ## Roadmap
 
-- Add support for more formats (e.g. webpages, PPTX, etc.)
-- Highlight relevant phrases in citations
-- Support scanned documents with OCR
-- More customization options (e.g. chain type, chunk size, etc.)
-- Visual PDF viewer
-- Support for Local LLMs
+- เพิ่มการรองรับรูปแบบเพิ่มเติม (e.g. webpages, PPTX, etc.)
+- เน้นวลีที่เกี่ยวข้องในการอ้างอิง
+- รองรับเอกสารที่สแกนด้วย OCR
+- ตัวเลือกการปรับแต่งเพิ่มเติม (e.g. chain type, chunk size, etc.)
+- โปรแกรมดู PDF แบบเห็นภาพ
+- การสนับสนุนสำหรับ Local LLMs
 
 
 
