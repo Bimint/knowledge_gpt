@@ -5,42 +5,41 @@ import streamlit as st
 def faq():
     st.markdown(
         """
-# FAQ
-## How does KnowledgeGPT work?
-When you upload a document, it will be divided into smaller chunks 
-and stored in a special type of database called a vector index 
-that allows for semantic search and retrieval.
+## KnowledgeGPT ทำงานอย่างไร
+เมื่อคุณอัปโหลดเอกสาร เอกสารจะถูกแบ่งออกเป็นส่วนเล็กๆ
+และจัดเก็บไว้ในฐานข้อมูลชนิดพิเศษที่เรียกว่าดัชนีเวกเตอร์
+ที่ช่วยให้สามารถค้นหาและเรียกค้นความหมายได้
 
-When you ask a question, KnowledgeGPT will search through the
-document chunks and find the most relevant ones using the vector index.
-Then, it will use GPT3 to generate a final answer.
+เมื่อคุณถามคำถาม KnowledgeGPT จะค้นหาผ่าน
+จัดทำเอกสารเป็นชิ้นๆ และค้นหาชิ้นที่เกี่ยวข้องมากที่สุดโดยใช้ดัชนีเวกเตอร์
+จากนั้นจะใช้ GPT3 เพื่อสร้างคำตอบสุดท้าย
 
-## Is my data safe?
-Yes, your data is safe. KnowledgeGPT does not store your documents or
-questions. All uploaded data is deleted after you close the browser tab.
+## ข้อมูลของฉันปลอดภัยหรือไม่?
+ใช่ ข้อมูลของคุณปลอดภัย KnowledgeGPT จะไม่เก็บเอกสารของคุณหรือ
+คำถาม. ข้อมูลที่อัปโหลดทั้งหมดจะถูกลบหลังจากที่คุณปิดแท็บเบราว์เซอร์.
 
-## Why does it take so long to index my document?
-If you are using a free OpenAI API key, it will take a while to index
-your document. This is because the free API key has strict [rate limits](https://platform.openai.com/docs/guides/rate-limits/overview).
-To speed up the indexing process, you can use a paid API key.
+## เหตุใดจึงใช้เวลานานมากในการจัดทำดัชนีเอกสารของฉัน
+หากคุณใช้คีย์ OpenAI API ฟรี จะใช้เวลาสักครู่ในการจัดทำดัชนี
+เอกสารของคุณ เนื่องจากคีย์ API ฟรีมีความเข้มงวด [rate limits](https://platform.openai.com/docs/guides/rate-limits/overview).
+เพื่อเร่งกระบวนการจัดทำดัชนี คุณสามารถใช้คีย์ API แบบชำระเงินได้
 
-## What do the numbers mean under each source?
-For a PDF document, you will see a citation number like this: 3-12. 
-The first number is the page number and the second number is 
-the chunk number on that page. For DOCS and TXT documents, 
-the first number is set to 1 and the second number is the chunk number.
+## ตัวเลขแต่ละแหล่งมีความหมายว่าอะไร?
+สำหรับเอกสาร PDF คุณจะเห็นหมายเลขอ้างอิงดังนี้: 3-12
+เลขตัวแรกคือเลขหน้า และเลขตัวที่สองคือ
+หมายเลขชิ้นในหน้านั้น สำหรับเอกสาร DOCS และ TXT
+ตัวเลขตัวแรกตั้งไว้ที่ 1 และตัวเลขตัวที่สองคือตัวเลขก้อน
 
-## Are the answers 100% accurate?
-No, the answers are not 100% accurate. KnowledgeGPT uses GPT-3 to generate
-answers. GPT-3 is a powerful language model, but it sometimes makes mistakes 
-and is prone to hallucinations. Also, KnowledgeGPT uses semantic search
-to find the most relevant chunks and does not see the entire document,
-which means that it may not be able to find all the relevant information and
-may not be able to answer all questions (especially summary-type questions
-or questions that require a lot of context from the document).
+## คำตอบถูกต้อง 100% หรือไม่?
+ไม่ คำตอบไม่ถูกต้อง 100% KnowledgeGPT ใช้ GPT-3 ในการสร้าง
+คำตอบ GPT-3 เป็นโมเดลภาษาที่ทรงพลัง แต่บางครั้งก็ทำให้เกิดข้อผิดพลาด
+และมีแนวโน้มที่จะเกิดอาการประสาทหลอน นอกจากนี้ KnowledgeGPT ยังใช้การค้นหาเชิงความหมาย
+เพื่อค้นหาส่วนที่เกี่ยวข้องมากที่สุดและไม่เห็นเอกสารทั้งหมด
+ซึ่งหมายความว่าอาจไม่สามารถค้นหาข้อมูลที่เกี่ยวข้องได้ทั้งหมดและ
+อาจตอบได้ไม่หมดทุกคำถาม (โดยเฉพาะคำถามประเภทสรุป)
+หรือคำถามที่ต้องใช้บริบทจากเอกสารมาก)
 
-But for most use cases, KnowledgeGPT is very accurate and can answer
-most questions. Always check with the sources to make sure that the answers
-are correct.
+แต่สำหรับกรณีการใช้งานส่วนใหญ่ KnowledgeGPT นั้นแม่นยำมากและตอบได้
+คำถามส่วนใหญ่ ตรวจสอบกับแหล่งที่มาเสมอเพื่อให้แน่ใจว่าคำตอบ
+ถูกต้อง.
 """
     )
