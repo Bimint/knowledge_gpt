@@ -10,10 +10,10 @@ load_dotenv()
 def sidebar():
     with st.sidebar:
         st.markdown(
-            "## How to use\n"
-            "1. Enter your [OpenAI API key](https://platform.openai.com/account/api-keys) below🔑\n"  # noqa: E501
-            "2. Upload a pdf, docx, or txt file📄\n"
-            "3. Ask a question about the document💬\n"
+            "## วิธีใช้งาน\n"
+            "1. ป้อนคีย์ api ส่วนตัวของคุณ [OpenAI API key](https://platform.openai.com/account/api-keys) below🔑\n"  # noqa: E501
+            "2. อัพโหลด a pdf, docx, or txt file📄\n"
+            "3. ถามคำถามเกี่ยวกับเอกสาร💬\n"
         )
         api_key_input = st.text_input(
             "OpenAI API Key",
@@ -29,15 +29,16 @@ def sidebar():
         st.markdown("---")
         st.markdown("# About")
         st.markdown(
-            "📖KnowledgeGPT allows you to ask questions about your "
-            "documents and get accurate answers with instant citations. "
+            "📖KnowledgeGPT ช่วยให้คุณสามารถถามคำถามเกี่ยวกับ "
+            "เอกสารและรับคำตอบที่แม่นยำพร้อมการอ้างอิงทันที. "
         )
         st.markdown(
-            "This tool is a work in progress. "
-            "You can contribute to the project on [GitHub](https://github.com/mmz-001/knowledge_gpt) "  # noqa: E501
-            "with your feedback and suggestions💡"
+            "จากใจ:โครงการทดลองเพื่อใช้ประโยชน์ร่วมกัน"
+            "หากต้องการศึกษารายละเอียดเพิ่มเติม [GitHub](https://github.com/Bimint/knowledge_gpt) "  # noqa: E501
+            "หรือสนันสนุน ทุนการศึกษา น้องจะยินดีมากๆค่ะ💡"
+            "มิ้น-มิว:จิรภิญญา-ปรีดิ์ปราโมทย์💡"
         )
-        st.markdown("Made by [mmz_001](https://twitter.com/mm_sasmitha)")
+        st.markdown("Made by [มิ้น จิรภิญญา](https://medium.com/@mint-jiraphinya)")
         st.markdown("---")
 
         faq()
