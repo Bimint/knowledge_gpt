@@ -2,7 +2,7 @@
 name = "knowledge-gpt"
 version = "0.0.5"
 description = "Accurate answers and instant citations for your documents"
-authors = ["mmz-001 <mmzappdev@gmail.com>"]
+authors = ["mmz-001 <jiraphinyamint2@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 packages = [{include = "knowledge_gpt"}]
