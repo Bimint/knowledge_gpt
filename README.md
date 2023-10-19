@@ -65,7 +65,7 @@ Open http://localhost:8501 in your browser to access the app.
 
 ## Tech Stack
 
-- User Interface - [Streamlit](https://streamlit.io/) 
+- User Interface - [Streamlit](https://streamlit.io/) เร็วกว่าในการสร้างและแชร์แอปข้อมูล ฟรีสำหรับงานส่วนตัว
 - LLM Tooling - [Langchain](https://github.com/hwchase17/langchain) งูเหลือมตัวใหญ่ๆเรียนรู้ได้ที่ลิ้งนี้ (python)
 
 ## Roadmap
