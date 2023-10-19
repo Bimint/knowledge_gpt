@@ -4,16 +4,14 @@
 
 <div id="top" align="center">
 
-![GitHub](https://img.shields.io/github/license/mmz-001/knowledge_gpt)
-![GitHub Repo stars](https://img.shields.io/github/stars/mmz-001/knowledge_gpt?style=social)
-![GitHub forks](https://img.shields.io/github/forks/mmz-001/knowledge_gpt?style=social)
-[![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/mm_sasmitha)](https://twitter.com/mm_sasmitha)
+![GitHub](https://github.com/Bimint/knowledge_gpt)
+
 
 </div>
 
 คำตอบที่แม่นยำและการอ้างอิงเอกสารของคุณทันที PDF BY มิ้น จิรภิญญา เวชบุตร 
 
-[ตัวอย่าง](https://twitter.com/mm_sasmitha/status/1620999984085884930)
+[ตัวอย่าง](https://jiraphinya.streamlit.app)
 
 ## Installation การติดตั้ง
 
