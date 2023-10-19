@@ -11,23 +11,22 @@
 
 </div>
 
-**Accurate answers and instant citations for your documents.**
+คำตอบที่แม่นยำและการอ้างอิงเอกสารของคุณทันที PDF BY Mint Jiraphinya Wechabut
 
-Upload your documents and get answers to your questions, with citations from the text.
-
+อัปโหลดเอกสารของคุณและรับคำตอบ สำหรับคำถามของคุณ พร้อมการอ้างอิงจากข้อความ
 [Demo](https://twitter.com/mm_sasmitha/status/1620999984085884930)
 
-## Installation
+## Installation การติดตั้ง
 
-Follow the instructions below to run the Streamlit server locally.
+ทำตามคำแนะนำด้านล่างเพื่อเรียกใช้เซิร์ฟเวอร์ Streamlit ภายในเครื่อง
 
-### Pre-requisites
+### Pre-requisites ข้อกำหนดเบื้องต้น
 
-Make sure you have Python ≥3.10 installed.
+ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Python ≥3.10 แล้ว
 
-### Steps
+### Steps ขั้นตอนดังนี้
 
-1. Clone the repository
+1. Clone the repository - โคลนพื้นที่เก็บข้อมูล
 
 ```bash
 git clone https://github.com/mmz-001/knowledge_gpt
@@ -54,10 +53,9 @@ cd knowledge_gpt
 streamlit run main.py
 ```
 
-## Build with Docker
+## Build with Docker - สร้างด้วย Docker
 
-Run the following commands to build and run the Docker image.
-
+รันคำสั่งต่อไปนี้เพื่อสร้างและรันอิมเมจ Docker
 ```bash
 cd knowledge_gpt
 docker build -t knowledge_gpt .
@@ -68,8 +66,8 @@ Open http://localhost:8501 in your browser to access the app.
 
 ## Customization
 
-You can increase the max upload file size by changing `maxUploadSize` in `.streamlit/config.toml`.
-Currently, the max upload size is 25MB for the hosted version.
+คุณสามารถเพิ่มขนาดไฟล์อัพโหลดสูงสุดได้โดยการเปลี่ยนแปลง `maxUploadSize` ใน `.streamlit/config.toml`.
+ปัจจุบัน ขนาดอัพโหลดสูงสุดคือ 25 MB สำหรับเวอร์ชันที่โฮสต์
 
 ## Tech Stack
 
